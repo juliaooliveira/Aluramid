@@ -13,6 +13,9 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++){
         tocaSom(idaudio)
     }
     contador = contador +1;
-
-}
- 
+    1 = function(evento){
+        if(evento.code =='enter')
+    listaTeclas.classlist.add('ativa')
+    }
+    tecla.onKeyup = function(){
+        tecla.classlist.remove('ativa')}
